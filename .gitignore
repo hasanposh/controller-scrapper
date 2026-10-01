@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+
+# Scraped raw output exceeds GitHub's 100MB per-file limit
+output/raw_listings.json
+output/progress.json
+output/missing_check_results.json

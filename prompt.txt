@@ -1,0 +1,19 @@
+I need to capture both the text fields and the accompanying images for about 5,500 items spread across a handful of publicly available websites. None of the pages sit behind a login, so access is straightforward—just standard HTTP requests.
+
+Scope of work
+• Extract every textual attribute visible on the item pages (titles, descriptions, specs, prices, and any other clearly labelled fields).
+• Download the main image for each item; if multiple images are present, grab them all.
+• Map image filenames back to the related row so I can trace where each picture belongs.
+• Deliver a clean CSV or Excel file plus an organised image folder.
+
+Technical notes
+You’re free to code in Python (Scrapy, BeautifulSoup, Selenium where unavoidable) or another language you prefer, provided the script is repeatable and I can run it locally. Please observe polite scraping etiquette—respect robots.txt, add reasonable delays, and keep request rates modest.
+
+Acceptance criteria
+1. File contains exactly 5,500 complete rows.
+2. All linked images download without corruption and match the sheet reference.
+3. Script, instructions, and a quick README are included so I can reproduce the results.
+
+Drop me a quick timeline and, if possible, a short sample of one item scraped in your preferred format so I can confirm the structure before you run the full job.
+
+https://www.controller.com/listings/for-sale/aircraft/all?PageSize=28&Page=1
